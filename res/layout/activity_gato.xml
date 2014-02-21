@@ -1,0 +1,286 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hojafondo"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Gato" >
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:longClickable="false"
+        android:text="@string/J1vsJ2"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivGato"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/tvTitulo1"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="85dp"
+        android:layout_marginTop="85dp"
+        android:contentDescription="@string/descripcionGato"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gato" />
+
+    <TextView
+        android:id="@+id/tvTitulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvTitulo2"
+        android:layout_alignBottom="@+id/tvTitulo2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:longClickable="false"
+        android:text="@string/J1vsCPU"
+        android:textSize="35sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ivO1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/descripcionCirculo"
+        android:onClick="onClick1"
+        android:src="@drawable/vacio"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/descripcionCirculo"
+        android:onClick="onClick1"
+        android:src="@drawable/vacio"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivO3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/descripcionCirculo"
+        android:onClick="onClick1"
+        android:src="@drawable/vacio"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivO4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/descripcionCirculo"
+        android:onClick="onClick1"
+        android:src="@drawable/vacio"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivO5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/descripcionCirculo"
+        android:onClick="onClick1"
+        android:src="@drawable/vacio"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivO6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/descripcionCirculo"
+        android:onClick="onClick1"
+        android:src="@drawable/vacio"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivO7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/descripcionCirculo"
+        android:onClick="onClick1"
+        android:src="@drawable/vacio"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivO8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/descripcionCirculo"
+        android:onClick="onClick1"
+        android:src="@drawable/vacio"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivO9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/descripcionCirculo"
+        android:onClick="onClick1"
+        android:src="@drawable/vacio"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/layoutr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/trozopapel"
+        android:clickable="true"
+        android:onClick="continuar"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvGanaO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/ganoO"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/tvGanaX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/ganaX"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/tvGanaCPU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/ganaCPU"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/tvContinuar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvGanaO"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="25dp"
+            android:paddingTop="5dp"
+            android:text="@string/continuar" />
+
+        <TextView
+            android:id="@+id/tvEmpate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/empate"
+            android:textSize="45sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvMarJ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="50dp"
+        android:paddingLeft="10dp"
+        android:text="@string/J1"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvPnJ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="50dp"
+        android:paddingRight="10dp"
+        android:text="@string/J2"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvMarJ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPnJ2"
+        android:layout_alignBottom="@+id/tvPnJ2"
+        android:layout_toLeftOf="@+id/tvPnJ2"
+        android:text="@string/J2"
+        android:textSize="25sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvPnJ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvMarJ1"
+        android:layout_alignBottom="@+id/tvMarJ1"
+        android:layout_toRightOf="@+id/tvMarJ1"
+        android:text="@string/J1"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvMarCPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPnJ2"
+        android:layout_alignBottom="@+id/tvPnJ2"
+        android:layout_toLeftOf="@+id/tvPnJ2"
+        android:text="@string/CPU"
+        android:textSize="25sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/linlay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</RelativeLayout>

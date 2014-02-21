@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TicTacToe</string>
+    <string name="descripcionFondo">Fond</string>
+    <string name="Tic">Tic</string>
+    <string name="Tac">Tac</string>
+    <string name="Toe">Toe</string>
+    <string name="boton2J">J1 vs J2</string>
+    <string name="BotonvsCpu">J1 vs CPU</string>
+    <string name="title_activity_gato">Gato</string>
+    <string name="J1vsCPU">J1 vs CPU</string>
+    <string name="J1vsJ2">J1 vs J2</string>
+    <string name="descripcionGato">#</string>
+    <string name="descripcionCirculo">O</string>
+    <string name="title_activity_dificultad">Dificultad</string>
+    <string name="action_settings">Settings</string>
+    <string name="Facil">Facile</string>
+    <string name="medio">Normal</string>
+    <string name="imposible">Impossible</string>
+    <string name="ganoO">J1 Gagne</string>
+    <string name="ganaX">J2 Gagne</string>
+    <string name="ganaCPU">CPU Gagne</string>
+    <string name="continuar">Cliquer pour continuer</string>
+    <string name="J1">J1: </string>
+    <string name="J2">J2: </string>
+    <string name="CPU">CPU:</string>
+    <string name="empate">Tirer</string>
+
+</resources>
